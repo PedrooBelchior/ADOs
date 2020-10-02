@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Gerenciador De Produtos</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="title_activity_act_main">Gerenciador de Produtos</string>
+    <string name="title_activity_act_cad_cliente">Cadastro de Produto</string>
+    <string name="title_activity_act_cad_nota">Cadastro de Produto</string>
+
+    <string name="lbl_produto">Nome</string>
+    <string name="lbl_entrada">Preco de Custo</string>
+    <string name="lbl_saida">Preco de Venda</string>
+    <string name="lbl_result">Resultado Lucro [+] || Prejuízo [-]</string>
+
+    <string name="lbl_nome">Nome</string>
+    <string name="lbl_precoCusto">Preço Custo</string>
+    <string name="lbl_precoVenda">Preço Venda</string>
+
+
+
+
+    <string name="title_menu_ok">Ok</string>
+    <string name="title_menu_cancelar">Cancelar</string>
+    <string name="title_aviso">Aviso</string>
+    <string name="message_campos_invalidos_brancos">Há campos inválidos ou em branco!</string>
+    <string name="lbl_ok">Ok</string>
+    <string name="message_conexao_criada_com_sucesso">Conexão criada com sucesso!</string>
+    <string name="title_erro">Erro</string>
+    <string name="action_settings">Settings</string>
+</resources>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.gerenciadorDeProdutos">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.gerenciadorDeProdutos.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.gerenciadorDeProdutos.ActCadNota"
+            android:label="@string/title_activity_act_cad_cliente"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name="com.gerenciadorDeProdutos.ListaDeProdutos" />
+        <activity android:name="com.gerenciadorDeProdutos.HelpActivity" />
+        <activity android:name="com.gerenciadorDeProdutos.CreditsActivity" />
+<!--        <activity android:name="com.gerenciadorDeProdutos.ActMain" />-->
+        <activity android:name="com.gerenciadorDeProdutos.ActMainNota" />
+
+    </application>
+
+</manifest>

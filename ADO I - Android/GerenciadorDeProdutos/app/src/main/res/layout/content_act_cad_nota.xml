@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layoutContentActCadNota"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".ActCadNota"
+    tools:showIn="@layout/act_cad_nota">
+
+    <TextView
+        android:id="@+id/txtProduto"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/lbl_produto"
+        android:textColor="@android:color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/edtProduto"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColor="@android:color/black"
+        app:layout_constraintEnd_toEndOf="@+id/txtProduto"
+        app:layout_constraintStart_toStartOf="@+id/txtProduto"
+        app:layout_constraintTop_toBottomOf="@+id/txtProduto" />
+
+    <TextView
+        android:id="@+id/txtEntrada"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/lbl_entrada"
+        android:textColor="@android:color/black"
+        app:layout_constraintEnd_toEndOf="@+id/edtProduto"
+        app:layout_constraintStart_toStartOf="@+id/edtProduto"
+        app:layout_constraintTop_toBottomOf="@+id/edtProduto" />
+
+    <TextView
+        android:id="@+id/dinheiro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="12dp"
+        android:text="R$"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/edtEntrada"
+        app:layout_constraintHorizontal_bias="0.652"
+        app:layout_constraintStart_toStartOf="@+id/txtEntrada"
+        app:layout_constraintTop_toTopOf="@+id/edtEntrada" />
+
+    <EditText
+        android:id="@+id/edtEntrada"
+        android:layout_width="337dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="none|numberDecimal"
+        app:layout_constraintEnd_toEndOf="@+id/txtEntrada"
+        app:layout_constraintHorizontal_bias="0.42"
+        app:layout_constraintStart_toStartOf="@+id/txtEntrada"
+        app:layout_constraintTop_toBottomOf="@+id/txtEntrada" />
+
+    <TextView
+        android:id="@+id/txtSaida"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="@string/lbl_saida"
+        android:textColor="@android:color/black"
+        app:layout_constraintEnd_toEndOf="@+id/edtEntrada"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/edtEntrada"
+        app:layout_constraintTop_toBottomOf="@+id/edtEntrada" />
+
+    <TextView
+        android:id="@+id/dinheiro2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="16dp"
+        android:text="R$"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/edtSaida"
+        app:layout_constraintHorizontal_bias="0.909"
+        app:layout_constraintStart_toStartOf="@+id/txtSaida"
+        app:layout_constraintTop_toTopOf="@+id/edtSaida" />
+
+    <EditText
+        android:id="@+id/edtSaida"
+        android:layout_width="325dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="none|numberDecimal"
+        android:textColor="@android:color/black"
+        app:layout_constraintEnd_toEndOf="@+id/txtSaida"
+        app:layout_constraintStart_toStartOf="@+id/txtSaida"
+        app:layout_constraintTop_toBottomOf="@+id/txtSaida" />
+
+    <TextView
+        android:id="@+id/txtResult"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="@string/lbl_result"
+        android:textColor="@android:color/black"
+        app:layout_constraintEnd_toEndOf="@+id/edtSaida"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/edtSaida"
+        app:layout_constraintTop_toBottomOf="@+id/edtSaida" />
+
+    <EditText
+        android:id="@+id/edtResult"
+        android:layout_width="153dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="8dp"
+        android:ems="10"
+        android:enabled="false"
+        android:inputType="number|textPersonName"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/txtResult"
+        app:layout_constraintHorizontal_bias="0.128"
+        app:layout_constraintStart_toStartOf="@+id/txtResult"
+        app:layout_constraintTop_toBottomOf="@+id/txtResult" />
+
+    <TextView
+        android:id="@+id/dinheiro3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="R$"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/edtResult"
+        app:layout_constraintStart_toStartOf="@+id/txtResult"
+        app:layout_constraintTop_toBottomOf="@+id/txtResult" />
+
+    <Button
+        android:id="@+id/btnSubtract"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="255dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="8dp"
+        android:background="@android:color/holo_green_dark"
+        android:text="Calcular                                                                                Resultado"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/txtResult"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="@+id/txtResult"
+        app:layout_constraintTop_toBottomOf="@+id/txtResult" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="357dp"
+        android:layout_height="27dp"
+        android:layout_marginTop="8dp"
+        android:text="OBS: Cálculo funcionando apenas com números inteiros"
+        app:layout_constraintEnd_toEndOf="@+id/btnSubtract"
+        app:layout_constraintHorizontal_bias="0.46"
+        app:layout_constraintStart_toStartOf="@+id/btnSubtract"
+        app:layout_constraintTop_toBottomOf="@+id/btnSubtract" />
+
+
+</android.support.constraint.ConstraintLayout>

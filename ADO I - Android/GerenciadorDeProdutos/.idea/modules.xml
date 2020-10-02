@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/GerenciadorDeFinancas2.iml" filepath="$PROJECT_DIR$/GerenciadorDeFinancas2.iml" group="GerenciadorDeFinancas2" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/GerenciadorDeProdutos.iml" filepath="$PROJECT_DIR$/.idea/modules/GerenciadorDeProdutos.iml" group="GerenciadorDeProdutos" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="GerenciadorDeProdutos/app" />
+    </modules>
+  </component>
+</project>
